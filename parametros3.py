@@ -11,7 +11,7 @@ print("Digite as informações (ou 'sair' na chave para encerrar): ")
 
 while True:
     chave = input("Nome do campo (ex: profissão)")
-    if chave.lower == 'sair':
+    if chave.lower() == 'sair':
         break
     valor = input(f"Valor para a {chave}: ")
     info_usuario[chave] = valor
